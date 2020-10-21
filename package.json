@@ -1,0 +1,33 @@
+{
+  "name": "s3-cloudfront",
+  "version": "1.0.0",
+  "description": "CDK App to deploy an S3 hosted web site behind CloudFront",
+  "main": "bin/s3-cloudfront.js",
+  "bin": {
+    "s3-cloudfront": "s3-cloudfront.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "cdk",
+    "cloudfront",
+    "s3"
+  ],
+  "author": "Mark Ilott",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-cdk/core": "^1.69.0",
+    "@aws-cdk/aws-route53": "^1.69.0",
+    "@aws-cdk/aws-certificatemanager": "^1.69.0",
+    "@aws-cdk/aws-route53-targets": "^1.69.0",
+    "@aws-cdk/aws-s3": "^1.69.0",
+    "@aws-cdk/aws-s3-deployment": "^1.69.0",
+    "@aws-cdk/aws-cloudfront": "^1.69.0",
+    "@aws-cdk/aws-wafv2": "^1.69.0"
+  }
+}

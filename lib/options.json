@@ -1,0 +1,13 @@
+{
+    "svcName": "s3-CloudFront Demo",
+    "region": "us-east-1",
+    "account": "",
+    "rootDomain": "yourdomain.com",
+    "useCustomDomain": false,
+    "createCert": false,
+    "certArn": "",
+    "createDns": false,
+    "hostname": "testcf",
+    "createWafAcl": false,
+    "allowCidrs": ["8.8.8.8/32"]
+}
